@@ -20,3 +20,38 @@ nav ul {
     padding: 0;
     margin: 0;
 }
+
+nav ul li {
+    display: inline;
+    float: right;
+    padding: 1.5rem;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards, article p {
+    margin-left: 1rem;
+}
+
+.card-holder {
+    border-left: 5px dotted palevioletred;
+    display: flex;
+    position: absolute;
+    left: 10%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cards {
+    padding: 1.5rem;
+    flex: 1 0 25%;
+}
+
+.cards, .top-image {
+    height: 400px;
+    width: 20vw;
+    background-color: lightpink;
+}
