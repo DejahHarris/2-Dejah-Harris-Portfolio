@@ -1,5 +1,5 @@
 #navbar {
-    background-color: palevioletred;
+    background-color: #efbece;
     position: fixed; 
     display: flex; 
     justify-content: flex-end; 
@@ -11,12 +11,12 @@
   .nav-lins {
     margin: 0; 
     padding: 15px;
-    color: #df809f; 
+    color: #d3517b; 
     text-decoration: none; 
   }
   
   .nav-lins:hover {
-    background-color: #df809f;
-    color: rgb(0, 3, 59);  
+    background-color: #d3517b;
+    color: #e79fb7;  
   }
   
