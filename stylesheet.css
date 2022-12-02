@@ -1,57 +1,22 @@
-h1 {
-    margin: 1rem;
-    color: black;
-}
-
-h2 {
-    display: inline-block;
-    padding-right: 1rem;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-image: linear-gradient(131,204,202, 0.5,rgba(13,74,82,0.5));
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    float: right;
-    padding: 1.5rem;
-}
-
-article {
-    display: flex;
-    flex-direction: row;
-}
-
-.cards, article p {
-    margin-left: 1rem;
-}
-
-.card-holder {
-    border-left: 5px dotted palevioletred;
-    display: flex;
-    position: absolute;
-    left: 10%;
-    flex-wrap: wrap;
+#navbar {
+    background-color: palevioletred;
+    position: fixed; 
+    display: flex; 
+    justify-content: flex-end; 
+    top: 0; 
+    left: 0; 
     width: 100%;
-}
-
-.cards {
-    padding: 1.5rem;
-    flex: 1 0 25%;
-}
-
-.cards, .top-image {
-    height: 400px;
-    width: 20vw;
-    background-color: lightpink;
-}
+    z-index: 20; 
+  }
+  .nav-lins {
+    margin: 0; 
+    padding: 15px;
+    color: #df809f; 
+    text-decoration: none; 
+  }
+  
+  .nav-lins:hover {
+    background-color: #df809f;
+    color: rgb(0, 3, 59);  
+  }
+  
