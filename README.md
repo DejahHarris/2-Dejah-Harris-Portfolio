@@ -8,6 +8,6 @@ For week two's challenge, I've created my personal porfolio. This portfolio will
 ![Usage](/Images/Screenshot%202022-12-03%20at%203.44.15%20PM.png "Screenshot 3")
 
 # Links
-Deployed site:
+Deployed site: https://dejahharris.github.io/2-Dejah-Harris-Portfolio/
 
 Repository: https://github.com/DejahHarris/2-Dejah-Harris-Portfolio
