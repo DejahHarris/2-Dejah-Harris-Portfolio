@@ -29,11 +29,11 @@ body {
     background-color: #d3517b;
     color: #e79fb7;  
   }
-  #profile-pic, {
-    border-radius: 50%;
-    width: 60%;
-    border: 10px #efbece;
-    align-items: center;
+  #profile-pic {
+    background-color: #d3517b;
+  }
+  img {
+    align-content: center;
   }
   #welcome-section {
     background-color: #d3517b;
