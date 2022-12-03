@@ -112,4 +112,47 @@ body {
     box-shadow: none; 
     transform: translateX(8px);
   }
+  #contacts h1 , h3 {
+    text-align: center; 
+  } 
   
+  #contacts { 
+    background-color: #d3517b; 
+    color: white;
+    padding-top: 30px; 
+    width: 100%;
+    display: flex; 
+    padding-bottom: 30px;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;  
+  }  
+   
+  #contact-me { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 30px 0px;
+  }
+  
+  #contact-me a {  
+    margin: 20px 10px;
+    padding: 10px;
+    text-decoration: none; 
+    color: white; 
+    text-shadow: 3px 3px 10px black; 
+    transition: 0.4s ease; 
+  }
+  
+  #contact-ancr a:hover {  
+    transform: translateY(10px); 
+    text-shadow: none; 
+  } 
+  #footer { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: #e79fb7;
+    color:#d3517b
+  }
