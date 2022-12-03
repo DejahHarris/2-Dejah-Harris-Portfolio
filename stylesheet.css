@@ -42,5 +42,74 @@ body {
   #welcome-section div {
     text-align: center;     
   }
-
+  #projects h1 {
+    text-align: center; 
+    border-bottom: 2px solid white;
+    max-width: 600px;  
+    margin-left: auto; 
+    margin-right: auto;  
+  }
+  
+  img {
+    width: 100%; 
+    height: auto; 
+    max-width: 500px;
+    max-height: 250px;
+    border-radius: 20px 0px 0px 0px; 
+  }
+  
+  #projects {
+    background-color: #efbece;
+    color: white; 
+    padding-top: 75px;
+    width: 100%; 
+  } 
+  .projlink { 
+    border-radius: 20px 0px 20px 0px;
+    text-align: center; 
+    text-decoration: none; 
+    padding-bottom: 15px; 
+    color: #d3517b;
+    background-color: #e79fb7;
+    box-shadow: 5px 5px 10px ; 
+    transition: 0.4s ease-in-out; 
+  }
+  
+  .projlink:hover {
+    background-color: #d3517b;
+    box-shadow: none; 
+  }
+  
+  #grid-container {
+    display: grid; 
+    grid-template-columns: repeat( auto-fit, minmax( 320px,1fr)); 
+    grid-gap: 1.875em; 
+    width: 100%; 
+    max-width: 1280px; 
+    margin: auto auto; 
+    padding: auto auto; 
+    padding-bottom: 10px;
+  }
+  
+  #abutn {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .abbutn{
+    border-radius: 10px;
+    padding: 10px; 
+    margin: 20px;
+    text-decoration: none; 
+    background-color: #e79fb7;
+    color: white; 
+    box-shadow: 3px 3px 10px #cf416f;  
+    transition: 0.4s ease-in-out; 
+  }
+  
+  .abbutn:hover {
+    background-color: #e79fb7;
+    box-shadow: none; 
+    transform: translateX(8px);
+  }
   
